@@ -1,6 +1,6 @@
 # Web Scraping Project for Extracting Structured HTML Content
 ## Project Description
-This project involves web scraping specific content from webpages. The task was to extract HTML elements like <h1>, <h2>, <h3>, <p>, and <ul> from a list of URLs stored in a CSV file and save the extracted structured content into a new CSV file. The scraped data is formatted to preserve the hierarchical structure of headers and lists from the source web pages.
+This project involves web scraping specific content from webpages. The task was to extract HTML elements like h1, h2, h3, p, and ul from a list of URLs stored in a CSV file and save the extracted structured content into a new CSV file. The scraped data is formatted to preserve the hierarchical structure of headers and lists from the source web pages.
 
 ## Technologies Used:
 Python: Used as the main programming language for scripting.
@@ -10,7 +10,7 @@ Numpy: (if required for data manipulation during analysis or saving processes).
 Chrome WebDriver: Automates interactions with the Chrome browser using Selenium.
 
 ## Key Features:
-Extracts and formats HTML content from specific tags (<h1>, <h2>, <h3>, <p>, <ul>).
+Extracts and formats HTML content from specific tags (h1, h2, h3, p, ul).
 Supports traversing and parsing li elements within ul tags to retain list formatting.
 Handles multiple URLs by reading from a CSV file.
 Saves extracted data in a new CSV file for easy access and reuse.
